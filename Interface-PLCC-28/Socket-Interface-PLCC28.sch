@@ -1,0 +1,202 @@
+EESchema Schematic File Version 4
+LIBS:Socket-Interface-PLCC28-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x14_Male J1
+U 1 1 5F15E3ED
+P 5300 3950
+F 0 "J1" H 5408 4731 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 5408 4640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 5300 3950 50  0001 C CNN
+F 3 "~" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x14_Male J2
+U 1 1 5F15F3F8
+P 6700 4050
+F 0 "J2" H 6672 4024 50  0000 R CNN
+F 1 "Conn_01x14_Male" H 6672 3933 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 6700 4050 50  0001 C CNN
+F 3 "~" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 3900 5500 3900
+Wire Wire Line
+	5500 3900 5500 3850
+Wire Wire Line
+	5850 3850 5550 3850
+Wire Wire Line
+	5550 3850 5550 3750
+Wire Wire Line
+	5550 3750 5500 3750
+Wire Wire Line
+	5850 3800 5600 3800
+Wire Wire Line
+	5600 3800 5600 3650
+Wire Wire Line
+	5600 3650 5500 3650
+Wire Wire Line
+	5850 3750 5650 3750
+Wire Wire Line
+	5650 3750 5650 3550
+Wire Wire Line
+	5650 3550 5500 3550
+Wire Wire Line
+	5850 3700 5700 3700
+Wire Wire Line
+	5700 3700 5700 3450
+Wire Wire Line
+	5700 3450 5500 3450
+Wire Wire Line
+	5850 3650 5750 3650
+Wire Wire Line
+	5750 3650 5750 3350
+Wire Wire Line
+	5750 3350 5500 3350
+Wire Wire Line
+	5850 4000 5500 4000
+Wire Wire Line
+	5500 4000 5500 4050
+Wire Wire Line
+	5850 4050 5550 4050
+Wire Wire Line
+	5550 4050 5550 4150
+Wire Wire Line
+	5550 4150 5500 4150
+Wire Wire Line
+	5850 4100 5600 4100
+Wire Wire Line
+	5600 4100 5600 4250
+Wire Wire Line
+	5600 4250 5500 4250
+Wire Wire Line
+	5850 4150 5650 4150
+Wire Wire Line
+	5650 4150 5650 4350
+Wire Wire Line
+	5650 4350 5500 4350
+Wire Wire Line
+	5700 4450 5700 4200
+Wire Wire Line
+	5700 4200 5850 4200
+Wire Wire Line
+	5500 4450 5700 4450
+Wire Wire Line
+	5500 4550 5750 4550
+Wire Wire Line
+	5750 4550 5750 4250
+Wire Wire Line
+	5750 4250 5850 4250
+Wire Wire Line
+	5850 4300 5800 4300
+Wire Wire Line
+	5800 4300 5800 4650
+Wire Wire Line
+	5800 4650 5500 4650
+$Comp
+L CustomLib:28-pin-Interface Int1
+U 1 1 5F17B723
+P 6000 4000
+F 0 "Int1" H 6000 4540 50  0000 C CNN
+F 1 "28-pin-Interface" H 6000 4449 50  0000 C CNN
+F 2 "Socket:PLCC-Socket-28" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3950 6500 3950
+Wire Wire Line
+	6500 3900 6500 3850
+Wire Wire Line
+	6150 3850 6450 3850
+Wire Wire Line
+	6450 3850 6450 3750
+Wire Wire Line
+	6450 3750 6500 3750
+Wire Wire Line
+	6400 3800 6400 3650
+Wire Wire Line
+	6400 3650 6500 3650
+Wire Wire Line
+	6150 3750 6350 3750
+Wire Wire Line
+	6350 3750 6350 3550
+Wire Wire Line
+	6350 3550 6500 3550
+Wire Wire Line
+	6150 3700 6300 3700
+Wire Wire Line
+	6300 3700 6300 3450
+Wire Wire Line
+	6300 3450 6500 3450
+Wire Wire Line
+	6250 3650 6250 3350
+Wire Wire Line
+	6250 3350 6500 3350
+Wire Wire Line
+	6150 3800 6400 3800
+Wire Wire Line
+	6150 3650 6250 3650
+Wire Wire Line
+	6150 3900 6500 3900
+Wire Wire Line
+	6150 4000 6500 4000
+Wire Wire Line
+	6500 4000 6500 4050
+Wire Wire Line
+	6450 4050 6450 4150
+Wire Wire Line
+	6450 4150 6500 4150
+Wire Wire Line
+	6150 4050 6450 4050
+Wire Wire Line
+	6400 4100 6400 4250
+Wire Wire Line
+	6400 4250 6500 4250
+Wire Wire Line
+	6150 4100 6400 4100
+Wire Wire Line
+	6150 4150 6350 4150
+Wire Wire Line
+	6350 4150 6350 4350
+Wire Wire Line
+	6350 4350 6500 4350
+Wire Wire Line
+	6150 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 4450
+Wire Wire Line
+	6300 4450 6500 4450
+Wire Wire Line
+	6150 4250 6250 4250
+Wire Wire Line
+	6250 4250 6250 4550
+Wire Wire Line
+	6250 4550 6500 4550
+Wire Wire Line
+	6500 4650 6200 4650
+Wire Wire Line
+	6200 4650 6200 4300
+Wire Wire Line
+	6200 4300 6150 4300
+Wire Wire Line
+	5500 3950 5850 3950
+$EndSCHEMATC

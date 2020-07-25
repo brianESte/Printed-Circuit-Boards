@@ -1,0 +1,35 @@
+
+# picture formats 
+#################
+*.png
+
+# packages / compressed objects
+###############################
+*.zip
+*.tar
+*.rar
+
+# backups..?
+############
+*-bak
+
+# Gerbers / Drill files
+#######################
+*.gbr
+*.drl
+
+# specific folders..
+####################
+1 4Pot NeedyC
+2 Wires Module
+3 Timer-Activation
+3D Test Piece
+4 Simon Says4
+5 Big Button Module
+6 Center Piece
+LED-Emded-v2
+MyLibraries
+
+# Footprint folders
+###################
+*.pretty
