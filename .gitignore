@@ -9,9 +9,10 @@
 *.tar
 *.rar
 
-# backups..?
+# backups / caches
 ############
 *-bak
+*-cache
 
 # Gerbers / Drill files
 #######################
